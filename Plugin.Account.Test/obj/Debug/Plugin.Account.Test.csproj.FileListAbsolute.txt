@@ -1,0 +1,2 @@
+C:\Users\henri\source\repos\Henrique.Crm.Lab\Plugin.Account.Test\obj\Debug\Plugin.Account.Test.csprojResolveAssemblyReference.cache
+C:\Users\henri\source\repos\Henrique.Crm.Lab\Plugin.Account.Test\obj\Debug\Plugin.Account.Test.csproj.CoreCompileInputs.cache

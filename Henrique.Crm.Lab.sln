@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Contact", "Plugin.Account\Plugin.Contact.csproj", "{6EDAB3C8-7CC9-4B3B-BDD5-3D1915318D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Contact.Test", "Plugin.Account.Test\Plugin.Contact.Test.csproj", "{5F2157C8-FCAF-41CA-AAF9-47D41E9E7518}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Service", "Domain.Account\Service.shproj", "{7CFEDC65-E447-487C-ABC9-6875CC893BCC}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Domain.Account\Domain.Account.projitems*{6edab3c8-7cc9-4b3b-bdd5-3d1915318d57}*SharedItemsImports = 4
+		Domain.Account\Domain.Account.projitems*{7cfedc65-e447-487c-abc9-6875cc893bcc}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EDAB3C8-7CC9-4B3B-BDD5-3D1915318D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDAB3C8-7CC9-4B3B-BDD5-3D1915318D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDAB3C8-7CC9-4B3B-BDD5-3D1915318D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDAB3C8-7CC9-4B3B-BDD5-3D1915318D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2157C8-FCAF-41CA-AAF9-47D41E9E7518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2157C8-FCAF-41CA-AAF9-47D41E9E7518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2157C8-FCAF-41CA-AAF9-47D41E9E7518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2157C8-FCAF-41CA-AAF9-47D41E9E7518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF3B0928-F6C1-4731-B0C7-812C04FE5977}
+	EndGlobalSection
+EndGlobal
